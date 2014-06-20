@@ -1,0 +1,72 @@
+body {
+    font-family: sans-serif;
+    font-size: 100%;
+    background: #333;
+}
+h1 {
+    font-size: 2em;
+    padding: 0;
+    color: #fff;
+    margin: 1em 0;
+}
+article>h1, aside>h1 {
+    font-size: 1.6em;
+    background: #9b3;
+    color: #fff;
+    padding: 0.5em;
+    margin: 0;
+}
+article>h2 {
+    font-size: 1.2em;
+}
+nav ul, nav li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+nav li {
+    font-size: 1rem;
+
+    text-align: center;
+}
+nav a {
+
+    text-decoration: none;
+    line-height: 200%;
+    padding: 0 2rem;
+}
+p {
+    text-align: justify;
+}
+section {
+    background: #fff;
+}
+article, aside{
+    padding:10px;}
+a {
+    color: #369;
+}
+nav a {
+    color:#fff;
+    background: #555;
+    transition: all 0.5s linear;
+}
+nav a:hover {
+    background: #f90;
+    height: 200%;
+}
+
+/* ID'S */
+
+#main {
+    background: #eee;
+}
+
+/* Image */
+
+img.large {
+    margin: 0.5em 0;
+    width: 100%;
+    height: auto;
+}
